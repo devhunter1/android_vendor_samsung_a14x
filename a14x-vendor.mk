@@ -173,8 +173,6 @@ PRODUCT_PACKAGES += \
     vendor_lib_libOpenCL_so \
     vendor_lib_libOpenCL_so_1 \
     vendor_lib_libOpenCL_so_1_1 \
-    vendor_lib_hw_vulkan_universal8535_so \
     vendor_lib64_libOpenCL_so \
     vendor_lib64_libOpenCL_so_1 \
-    vendor_lib64_libOpenCL_so_1_1 \
-    vendor_lib64_hw_vulkan_universal8535_so
+    vendor_lib64_libOpenCL_so_1_1

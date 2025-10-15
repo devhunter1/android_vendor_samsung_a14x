@@ -4265,13 +4265,6 @@ install_symlink {
 }
 
 install_symlink {
-    name: "vendor_lib_hw_vulkan_universal8535_so",
-    soc_specific: true,
-    installed_location: "lib/hw/vulkan.universal8535.so",
-    symlink_target: "/vendor/lib/egl/libGLES_mali.so",
-}
-
-install_symlink {
     name: "vendor_lib64_libOpenCL_so",
     soc_specific: true,
     installed_location: "lib64/libOpenCL.so",
@@ -4289,12 +4282,5 @@ install_symlink {
     name: "vendor_lib64_libOpenCL_so_1_1",
     soc_specific: true,
     installed_location: "lib64/libOpenCL.so.1.1",
-    symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
-}
-
-install_symlink {
-    name: "vendor_lib64_hw_vulkan_universal8535_so",
-    soc_specific: true,
-    installed_location: "lib64/hw/vulkan.universal8535.so",
     symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
 }
