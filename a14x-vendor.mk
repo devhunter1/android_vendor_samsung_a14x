@@ -8,7 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/a14x/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/a14x/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
-    vendor/samsung/a14x/proprietary/vendor/etc/init/samsung.hardware.media.c2@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/samsung.hardware.media.c2@1.2-service.rc \
     vendor/samsung/a14x/proprietary/vendor/firmware/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APDV_AUDIO_SLSI.bin \
     vendor/samsung/a14x/proprietary/vendor/firmware/APMS_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APMS_AUDIO_SLSI.bin \
     vendor/samsung/a14x/proprietary/vendor/firmware/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AP_AUDIO_SLSI.bin \
@@ -68,21 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a14x/proprietary/vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-564c544b4456
 
 PRODUCT_PACKAGES += \
-    arm.graphics-V1-ndk \
-    libGLES_mali \
-    android.hardware.graphics.allocator@4.0-impl \
-    android.hardware.graphics.mapper@4.0-impl \
     audio.primary.s5e8535 \
-    hwcomposer.s5e8535 \
-    vulkan.mali \
-    libExynosC2ComponentStore \
-    libExynosC2H264Dec \
-    libExynosC2H264Enc \
-    libExynosC2HevcDec \
-    libExynosC2HevcEnc \
-    libExynosC2Vp8Dec \
-    libExynosC2Vp8Enc \
-    libExynosHWCService \
     libSamsungPostProcessConvertor \
     lib_SamsungRec_07010 \
     lib_SoundAlive_AlbumArt_ver105 \
@@ -91,24 +76,14 @@ PRODUCT_PACKAGES += \
     lib_SoundBooster_ver1100 \
     lib_soundaliveresampler \
     libaboxpcmdump \
-    libacryl \
     libalsautils_sec \
     libaudio-ril \
     libaudioparamupdate \
     libaudioproxy2 \
     libaudioroute_vendor \
     libdatamod \
-    libdrmresource \
     libeis_core \
-    libepicoperator \
-    libexynosdisplay \
-    libexynosgraphicbuffer \
-    libexynosutils \
-    libexynosv4l2 \
     libfloatingfeature \
-    libgiantmscl \
-    libhwjpeg \
-    libion_exynos \
     liblastaboxmsg \
     libprofileparamstorage \
     librecordalive \
@@ -134,15 +109,12 @@ PRODUCT_PACKAGES += \
     libswdap \
     libswspatializer \
     vendor.samsung.hardware.bluetooth.audio-V1-ndk \
-    vendor.samsung_slsi.hardware.epic@1.0 \
     camera.s5e8535 \
     libIRTA \
     libVendorSemDataProps \
     libVendorSemTelephonyProps \
-    libcsc \
     libdlrmsc \
     libengmode_client \
-    libexynosscaler \
     libomp \
     libremosaic_wrapper \
     libremosaiclib \
@@ -166,13 +138,4 @@ PRODUCT_PACKAGES += \
     cass \
     android.hardware.security.keymint-service.samsung \
     gpsd \
-    rild \
-    samsung.hardware.media.c2@1.2-service
-
-PRODUCT_PACKAGES += \
-    vendor_lib_libOpenCL_so \
-    vendor_lib_libOpenCL_so_1 \
-    vendor_lib_libOpenCL_so_1_1 \
-    vendor_lib64_libOpenCL_so \
-    vendor_lib64_libOpenCL_so_1 \
-    vendor_lib64_libOpenCL_so_1_1
+    rild
