@@ -67,35 +67,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a14x/proprietary/vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-564c544b4456
 
 PRODUCT_PACKAGES += \
-    audio.primary.s5e8535 \
-    libSamsungPostProcessConvertor \
-    lib_SamsungRec_07010 \
     lib_SoundAlive_AlbumArt_ver105 \
-    lib_SoundAlive_SRC384_ver320 \
     lib_SoundAlive_play_plus_ver500 \
     lib_SoundBooster_ver1100 \
-    lib_soundaliveresampler \
-    libaboxpcmdump \
-    libalsautils_sec \
-    libaudio-ril \
-    libaudioparamupdate \
-    libaudioproxy2 \
-    libaudioroute_vendor \
-    libdatamod \
     libeis_core \
     libfloatingfeature \
-    liblastaboxmsg \
     libprofileparamstorage \
-    librecordalive \
     libsecaudiocoreutils \
     libsecaudioinfo \
-    libsecaudiolevel \
     libsecnativefeature \
     libsecril-client_vendor \
-    libsehbluetooth_audio_session_aidl \
     libsemnativecarrierfeature \
     libspatializerparamstorage \
-    libtinyalsa_vendor \
     libuniplugin \
     libvdis_interface \
     libvra \
@@ -108,7 +91,6 @@ PRODUCT_PACKAGES += \
     libsamsungSoundbooster_plus \
     libswdap \
     libswspatializer \
-    vendor.samsung.hardware.bluetooth.audio-V1-ndk \
     camera.s5e8535 \
     libIRTA \
     libVendorSemDataProps \
