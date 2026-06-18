@@ -80,6 +80,7 @@ PRODUCT_PACKAGES += \
     sensors.grip \
     sensors.inputvirtual \
     sensors.sensorhub \
+    libswdap \
     camera.s5e8535 \
     libIRTA \
     libdlrmsc \
