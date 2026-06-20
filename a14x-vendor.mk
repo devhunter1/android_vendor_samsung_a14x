@@ -73,23 +73,23 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a14x/proprietary/vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-564c544b4456
 
 PRODUCT_PACKAGES += \
-    libeis_core \
-    libuniplugin \
-    libvdis_interface \
-    libvra \
-    sensors.grip \
-    sensors.inputvirtual \
-    sensors.sensorhub \
-    libswdap \
     camera.s5e8535 \
     libIRTA \
     libdlrmsc \
+    libeis_core \
     libomp \
     libremosaic_wrapper \
     libremosaiclib \
     libsec2lsi_conversion \
     libsensorlistener \
     libuniapi \
+    libuniplugin \
+    libvdis_interface \
     libvpl \
+    libvra \
+    sensors.grip \
+    sensors.inputvirtual \
+    sensors.sensorhub \
+    libswdap \
     vendor.samsung.hardware.thermal@1.0 \
     gpsd
