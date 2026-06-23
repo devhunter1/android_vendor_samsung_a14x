@@ -92,4 +92,5 @@ PRODUCT_PACKAGES += \
     sensors.sensorhub \
     libswdap \
     vendor.samsung.hardware.thermal@1.0 \
-    gpsd
+    gpsd \
+    vendor.samsung.hardware.thermal@1.0-service

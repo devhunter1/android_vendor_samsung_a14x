@@ -623,3 +623,43 @@ cc_prebuilt_binary {
     relative_install_path: "hw",
     soc_specific: true,
 }
+
+cc_prebuilt_binary {
+    name: "vendor.samsung.hardware.thermal@1.0-service",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service",
+            ],
+            shared_libs: [
+                "libsecril-client",
+                "libbase",
+                "libutils",
+                "libcutils",
+                "libhidlbase",
+                "liblog",
+                "libhardware",
+                "libcamera_metadata",
+                "android.hardware.thermal@1.0",
+                "android.hardware.thermal@2.0",
+                "vendor.samsung.hardware.thermal@1.0",
+                "android.frameworks.cameraservice.service@2.0",
+                "android.frameworks.cameraservice.service@2.1",
+                "vendor.samsung.hardware.audio@1.0",
+                "libhypervintf",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
